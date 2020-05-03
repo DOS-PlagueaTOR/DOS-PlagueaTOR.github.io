@@ -1,0 +1,258 @@
+    html {
+        background: url("img/bg.svg") fixed;
+        scroll-behavior: smooth;
+    }
+
+    .main {
+        max-width: 100%;
+        min-height: 250px;
+        text-align: center;
+        color: white;
+        font-family: Ubuntu;
+        font-size: 40px;
+        margin: 0 25px;
+    }
+
+    .main-wrap {
+        margin: 0 auto;
+        max-width: 1110px;
+        min-height: 250px;
+        border: 20px groove rgb(0, 255, 196);
+        margin-top: 20px;
+        transition: 0.2s linear
+    }
+
+    .main-title {
+        color: black;
+        margin-top: 40px;
+        min-height: 50px;
+        background-color: rgba(0, 255, 196, 0.28);
+        transition: 0.2s linear;
+    }
+
+    .main-wrap:hover {
+        background-color: rgb(0, 255, 196);
+        transform: scale(1.05)
+    }
+
+    .main-title:hover {
+        color: white;
+        background-color: black;
+    }
+
+    .spisok {
+        text-align: center;
+        min-height: 250px;
+        margin: 100px 25px;
+    }
+
+    .spisok-wrap {
+        margin: 0 auto;
+        max-width: 600px;
+        min-height: 250px;
+        background-color: rgba(0, 255, 196, 0.28);
+        border: 7px solid rgb(0, 255, 196);
+        font-family: ubuntu;
+        font-size: 20px;
+    }
+
+    .spisok-title {
+        font-family: fantasy;
+        font-style: italic;
+        font-size: 50px;
+        color: black;
+        background-color: rgb(0, 255, 196);
+    }
+
+    .spisok-wrap-n2 {
+        margin-top: 25px;
+        text-decoration: none;
+    }
+
+    .a2a {
+        text-decoration: none;
+        color: black;
+        transition: 0.2s;
+    }
+
+    .a2a:hover {
+        color: white;
+    }
+
+    .SiteTypes {
+        min-height: 250px;
+        margin: 0 25px;
+        margin-bottom: 100px;
+    }
+
+    .SiteTypes-wrap {
+        margin: 0 auto;
+        max-width: 1110px;
+        min-height: 250px;
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        font-family: monospace;
+        background-color: rgba(17, 34, 51, 0.59);
+        line-height: 50px;
+        text-decoration: none;
+        margin-bottom: 100px;
+    }
+
+    .SiteTypes-title {
+        font-size: 35px;
+        background-color: #123;
+    }
+
+    .SiteTypes-button {
+        color: white;
+        text-decoration: none;
+        transition: 0.2s linear;
+    }
+
+    .SiteTypes-button:hover {
+        color: yellow;
+    }
+
+    .structure {
+        min-height: 250px;
+        margin: 0px 25px;
+        margin-bottom: 100px;
+    }
+
+    .structure-wrap {
+        margin: 0 auto;
+        max-width: 1110px;
+        min-height: 250px;
+        font-family: monospace;
+        color: white;
+        text-align: center;
+        font-size: 25px;
+        background-color: rgba(17, 34, 51, 0.59);
+        line-height: 50px;
+        text-decoration: none;
+    }
+
+    .structure-title {
+        font-size: 35px;
+        background-color: #123;
+    }
+
+    .fth {
+        transition: 0.2s linear;
+    }
+
+    .fth:hover {
+        text-decoration: underline;
+        color: yellow
+    }
+
+    .structure-img {
+        background-image: url(img/struktura-sajta.png);
+        -moz-background-size: 100%;
+        -webkit-background-size: 100%;
+        -o-background-size: 100%;
+        background-size: 100%;
+        height: 400px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .rules {
+        min-height: 250px;
+        margin: 0 25px;
+        margin-bottom: 100px;
+    }
+
+    .rules-wrap {
+        margin: 0 auto;
+        max-width: 1110px;
+        min-height: 250px;
+        font-family: monospace;
+        color: white;
+        text-align: center;
+        font-size: 25px;
+        background-color: rgba(17, 34, 51, 0.59);
+        line-height: 50px;
+        text-decoration: none;
+    }
+
+    .rules-title {
+        font-size: 35px;
+        background-color: #123;
+    }
+
+    .diz {
+        min-height: 250px;
+        margin: 0 25px;
+        margin-bottom: 100px;
+    }
+
+    .diz-wrap {
+        margin: 0 auto;
+        max-width: 1110px;
+        min-height: 250px;
+        font-family: monospace;
+        color: white;
+        text-align: center;
+        font-size: 25px;
+        background-color: rgba(17, 34, 51, 0.59);
+        line-height: 50px;
+        text-decoration: none;
+    }
+
+    .diz-title {
+        font-size: 35px;
+        background-color: #123;
+    }
+
+    .diz-text {
+        transition: 0.2s linear;
+    }
+
+    .diz-text:hover {
+        color: yellow;
+        text-decoration: underline;
+    }
+
+    .ad1234 {
+        transition: 0.2s linear
+    }
+
+    .ad1234:hover {
+        color: yellow;
+    }
+
+    .footer {
+        background-color: rgba(17, 34, 51, 0.59);
+        min-height: 150px;
+    }
+
+    .vkcom {
+        background: url(img/vk-social-network-logo.svg) no-repeat;
+        height: 75px;
+        width: 75px;
+        -moz-background-size: 100%;
+        -webkit-background-size: 100%;
+        -o-background-size: 100%;
+        background-size: 100%;
+        margin: 0 auto;
+        transition: 0.5s linear;
+    }
+.vkcom:hover{
+transform: scale(1.5);
+}
+.createdby{
+    margin-top: 30px;
+    font-family: ubuntu;
+    text-decoration: none;
+    color:white;
+    text-align: right;
+    margin-right: 25px;
+    transition: 4s linear;
+    line-height: 50px;
+}
+.createdby:hover{
+   transform: scale(0.5);
+    color: aqua
+}
