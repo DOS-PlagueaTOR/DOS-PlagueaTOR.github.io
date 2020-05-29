@@ -1,0 +1,3 @@
+font-family: 'Chelsea Market', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Oswald', sans-serif;
