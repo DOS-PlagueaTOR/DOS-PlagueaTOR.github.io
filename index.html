@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>_FFW_Agency_</title>
+    <!--css-->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body onload="ParseURL()">
+    <div class="content">
+        <section class="fonts">
+            <div class="fonts-head">
+                <div class="fonts-head-wrap">
+                    <h3 class="fonts-titles" id="selection-font-title">Please select one font</h3>
+                    <ul class="fonts-nav">
+                        <li class="fonts-nav-element" id="nava" onclick="colsw1()">MY FONTS</li>
+                        <li class="fonts-nav-element" id="navb" onclick="colsw2()">BUY FONTS</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="fonts-content">
+                <div class="fonts-content-wrap" id="first">
+                    <div class="fonts-element">
+                        <a  onclick="changer_font_m()">
+                            <prever id="M">Merriweather</prever>
+                            <span class="fonts-element-but">M</span>
+                        </a>
+                        <li>
+                            <span>Merriweather<br /> project is led by <br />Sorkin Type</span>
+                        </li>
+                    </div>
+                    <div class="fonts-elements-group">
+                        <div class="fonts-element-g">
+                            <a  onclick="changer_font_r()">
+                                <prever id="R">Roboto</prever>
+                                <span>R</span>
+                            </a>
+                            <li>
+                                <span>Roboto doesn't<br /> compromise, allow-<br />ing letters</span>
+                            </li>
+                        </div>
+                        <div class="fonts-element-g">
+                            <a  onclick="changer_font_ns()">
+                                <prever id="NS">Noto Sans</prever>
+                                <span>NS</span>
+                            </a>
+                            <li>
+                                <span>Noto Sans covers<br />over 30 scripts</span>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+                <div class="next-slide" id="last">
+                    <span id="lsprice">first choose your font</span>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!--bottom js-->
+    <script src="./js/main.js"></script>
+</body></html>

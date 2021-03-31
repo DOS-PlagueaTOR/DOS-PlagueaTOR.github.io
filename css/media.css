@@ -1,0 +1,152 @@
+@media screen and (max-width:1440px) {
+    .fonts {
+        width: 95%;
+    }
+
+    .fonts-element {
+        justify-content: center;
+    }
+
+    .fonts-element a {
+        width: 15vh;
+        height: 15vh;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .fonts-titles span {
+        margin: 20px 0;
+    }
+
+    .fonts-head ul {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .fonts-content-wrap {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .fonts-content {
+        border: 5px solid #c2cadf;
+    }
+
+    .fonts-element {
+        width: 100%;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        min-height: auto;
+        padding: 20px 0;
+    }
+
+    .fonts-element a {
+        width: 100px;
+        height: 100px;
+        padding: 30px;
+        font-size: 4.7vh;
+    }
+
+    .fonts-element li {
+        font-size: 30px;
+        margin-left: 10%;
+    }
+
+    .fonts-element li span {
+        font-size: 28px;
+    }
+
+    .fonts-element-but {
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .fonts-elements-group {
+        width: 100%;
+    }
+
+    .fonts-element-g {
+        width: 100%;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        min-height: auto;
+        padding: 50px 0;
+
+    }
+
+    .fonts-element-g a span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 4.7vh;
+    }
+
+    .fonts-element-g:first-child {
+        margin-bottom: 0;
+    }
+
+    .fonts-element-g a {
+        width: 100px;
+        height: 100px;
+        margin: 0;
+        padding: 30px;
+
+    }
+
+    .fonts-element-g li {
+        font-size: 30px;
+        margin-left: 10%;
+    }
+
+    .fonts-element-g li span {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .fonts-head h3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .fonts-head ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fonts-head ul li {
+        text-align: center;
+        width: 100%;
+        margin: 10px 0;
+        padding: 10px;
+        font-size: 1.8vh;
+    }
+
+    .fonts-element,
+    .fonts-element-g {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        list-style-type: none;
+    }
+    .fonts-element a,.fonts-element-g a{
+        margin-bottom: 20px;
+    }
+    #last{
+        text-align: center;
+    }
+    #lsprice{
+        font-size: 2ch!important;
+    }
+}

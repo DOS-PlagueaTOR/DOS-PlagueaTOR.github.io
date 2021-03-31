@@ -1,0 +1,300 @@
+body {
+    font-weight: 500;
+    background-color: #ffffff;
+}
+
+prever {
+    display: none;
+}
+
+#selection-font {
+    font-weight: bolder;
+    color: black;
+    padding: 5px 20px;
+    cursor: default;
+    transition: 0.5s;
+    background-color: black;
+    color: #fff;
+    position: relative;
+}
+
+#selection-font:hover {
+    opacity: 0.7;
+}
+
+#selection-font a {
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    transition: 0.5s;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.fonts-titles {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#selection-font a:hover {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.38);
+    cursor: grab;
+}
+
+a:active {
+    cursor: grabbing;
+}
+
+.content {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    /*w65%*/
+    align-items: center;
+    font-family: 'Montserrat';
+}
+
+.fonts {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fonts-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 45px;
+
+}
+
+.fonts-head-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 27px;
+}
+
+.fonts-head h3 {
+    font-size: 40px;
+}
+
+.fonts-head ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+.fonts-head ul li {
+    color: #bfccdf;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 2vh;
+    margin: 0 5px;
+}
+
+.fonts-head ul li:first-child {
+    color: #ff5306;
+    box-shadow: 2px 2px 0, -2px 2px 0, -2px -2px 0, 2px -2px 0;
+}
+
+.fonts-head ul li:hover {
+    color: #ff5306;
+    box-shadow: 2px 2px 0, -2px 2px 0, -2px -2px 0, 2px -2px 0 !important;
+}
+
+.fonts-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #c2cadf;
+    border-radius: 6px;
+    position: relative;
+}
+
+.fonts-content-wrap {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 5% 5%;
+}
+
+.fonts-element {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 30px;
+    min-height: 385px;
+}
+
+.fonts-element a {
+    border: 2px solid black;
+    border-radius: 32px;
+    transition: 0.5s;
+    font-size: 5.7vh;
+    font-weight: bold;
+    width: 17vh;
+    height: 17vh;
+    padding: 30px;
+    background-color: #00a751;
+    box-shadow: 0 0 0 6px #fff inset;
+}
+
+.fonts-element-but {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.fonts-element a:hover {
+    color: white;
+    box-shadow: 0 0 0 4px black inset, 0 0 22px black;
+}
+
+.fonts-element li {
+    color: #9aa2b5;
+    font-size: 40px;
+}
+
+.fonts-element li span {
+    color: black;
+    font-size: 36px;
+    display: inline-table;
+    margin-left: -20px;
+}
+
+.fonts-elements-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.fonts-element-g {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.fonts-element-g:first-child{
+    margin-bottom: 10%;
+}
+.fonts-element-g a {
+    width: 12vh;
+    height: 12vh;
+    background-color: #006dfe;
+    border: 2px solid black;
+    box-shadow: 0 0 0 6px #fff inset;
+    border-radius: 30px;
+    padding: 2vh;
+    display: flex;
+    transition: 0.5s;
+    margin-right: 6%;
+}
+
+.fonts-element-g:first-child a {
+    background-color: #fe80c3;
+}
+
+.fonts-element-g li {
+    color: #9aa2b5;
+    font-size: 30px;
+    line-height: 41px;
+}
+
+.fonts-element-g li span {
+    display: inline-table;
+    color: #929397;
+    margin-left: -20px;
+    font-size: 26px;
+}
+
+.fonts-element-g a span {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    transition: 0.2s;
+    font-size: 4vh;
+
+}
+
+.fonts-element-g a:hover {
+    color: #fff;
+    box-shadow: 0 0 0 4px black inset, 0 0 22px black;
+}
+
+.fonts-element-g:last-child li span {
+    color: black !important;
+}
+
+.fonts-element-g:last-child li {
+    color: #99a2b3;
+}
+
+.fonts-element-g:first-child li {
+    color: #ccd0d9;
+}
+
+.next-slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#first,
+#last {
+    transition: 0.5s;
+    min-height: 385px;
+}
+
+#lsprice {
+    font-size: 40px !important;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+}
+
+#lsprice a {
+    margin-top: 20%;
+    background-color: #009a00;
+    border-radius: 10px;
+    padding: 10px 40px;
+    cursor: pointer;
+    transition: 0.5s;
+    border: 4px solid black;
+}
+
+#lsprice a:hover {
+    color: white;
+    background-color: black;
+    box-shadow: 0 0 0 2px #fff inset;
+}
