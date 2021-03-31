@@ -111,6 +111,9 @@
 }
 
 @media screen and (max-width:425px) {
+    .fonts-nav{
+        margin: 0 auto;
+    }
     .fonts-head h3 {
         display: flex;
         justify-content: center;
