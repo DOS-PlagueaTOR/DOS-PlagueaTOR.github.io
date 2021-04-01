@@ -106,6 +106,7 @@ a:active {
     cursor: pointer;
     font-size: 2vh;
     margin: 0 5px;
+    padding: 10px;
 }
 
 .fonts-head ul li:first-child {
