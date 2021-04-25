@@ -1,69 +1,247 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
+<html>
+  <head>
     <meta charset="UTF-8">
+    <title>Взорви Таргет сегодня</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>_FFW_Agency_</title>
+
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
     <!--css-->
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
     <!--fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!--js-->
+    <script src="slider.js"></script>
 </head>
 
-<body onload="ParseURL()">
-    <div class="content">
-        <section class="fonts">
-            <div class="fonts-head">
-                <div class="fonts-head-wrap">
-                    <h3 class="fonts-titles" id="selection-font-title">Please select one font</h3>
-                    <ul class="fonts-nav">
-                        <li class="fonts-nav-element" id="nava" onclick="colsw1()">MY FONTS</li>
-                        <li class="fonts-nav-element" id="navb" onclick="colsw2()">BUY FONTS</li>
-                    </ul>
+<body>
+    <div class="slides">
+        <section class="hero full_screen" id="main">
+            <div class="hero-wrap">
+                <div class="hero-content">
+                    <h1>ВЗЛОМАЙ ТАРГЕТ<br />
+                        ЗА 3 НЕДЕЛИ</h1>
+                    <p>Перестань себе во всем отказывать!<br />
+                        Всего за 3 недели ты сможешь повернуть свою жизнь<br />
+                        на 180 градусов</p>
+                    <div class="hero-buttons">
+                        <a href="#!">Выбрать тариф</a>
+                        <a href="#!">Программа курса</a>
+                    </div>
+                </div>
+                <div class="hero-sx">
+                    <img src="img/sx_girl_hero.png" alt="Дарина">
                 </div>
             </div>
-            <div class="fonts-content">
-                <div class="fonts-content-wrap" id="first">
-                    <div class="fonts-element">
-                        <a  onclick="changer_font_m()">
-                            <prever id="M">Merriweather</prever>
-                            <span class="fonts-element-but">M</span>
-                        </a>
-                        <li>
-                            <span>Merriweather<br /> project is led by <br />Sorkin Type</span>
-                        </li>
+        </section>
+
+        <section class="info-box full_screen" id="info">
+            <div class="info-box-wrap">
+                <h2>КОМУ ПОДОЙДЕТ КУРС?</h2>
+                <div class="flex-box">
+                    <div class="flex-item">
+                        <i><img src="img/svg/sticker1.svg" alt="стикер"></i>
+                        <h3>НОВИЧКАМ</h3>
+                        <p>Если ты еще не имеешь никакого
+                            опыта в сфере таргета, то данный
+                            курс поможет тебе не только
+                            освоить новую профессию,
+                            но и зарабатывать на этом</p>
                     </div>
-                    <div class="fonts-elements-group">
-                        <div class="fonts-element-g">
-                            <a  onclick="changer_font_r()">
-                                <prever id="R">Roboto</prever>
-                                <span>R</span>
-                            </a>
-                            <li>
-                                <span>Roboto doesn't<br /> compromise, allow-<br />ing letters</span>
-                            </li>
-                        </div>
-                        <div class="fonts-element-g">
-                            <a  onclick="changer_font_ns()">
-                                <prever id="NS">Noto Sans</prever>
-                                <span>NS</span>
-                            </a>
-                            <li>
-                                <span>Noto Sans covers<br />over 30 scripts</span>
-                            </li>
-                        </div>
+                    <div class="flex-item ">
+                        <i><img src="img/svg/sticker2.svg" alt="стикер"></i>
+                        <h3>БЛОГЕРАМ
+                            И ПРЕДПРИНИМАТЕЛЯМ</h3>
+                        <p>Если ты имеешь свой блог
+                            или бизнес, то этот курс - отличная
+                            возможность прокачать свой аккаунт
+                            и найти новых клиентов</p>
+                    </div>
+                    <div class="flex-item">
+                        <i><img src="img/svg/sticker3.svg" alt="стикер"></i>
+                        <h3>ПРОДВИНУТЫМ</h3>
+                        <p>Если ты уже имеешь опыт, то у тебя
+                            есть шанс увеличить не только
+                            багаж знаний, но и стоимость
+                            своих услуг, а вместе с этим
+                            и свой заработок</p>
                     </div>
                 </div>
-                <div class="next-slide" id="last">
-                    <span id="lsprice">first choose your font</span>
+            </div>
+        </section>
+        <section class="program full_screen" id="program">
+            <div class="program-wrap">
+                <h2>ПРОГРАММА КУРСА И РЕЗУЛЬТАТЫ</h2>
+                <div class="flex-box">
+                    <div class="flex-item">
+                        <i><img src="img/svg/sticker4.svg" alt="стикер"></i>
+                        <h3>АНАЛИЗ</h3>
+                        <p>Вы научитесь:</p>
+                        <ul>
+                            <li>Проводить анализ рынка и посадочной страницы</li>
+                            <li>Выявлять целевую аудиторию</li>
+                            <li>Сегментировать аудиторию</li>
+                            <li>Составлять портрет клиента</li>
+                            <li>Анализировать конкурентов</li>
+                            <li>Составлять воронку продаж</li>
+                            <li>Разрабатывать рекламную
+                                стратегию</li>
+                        </ul>
+                    </div>
+                    <div class="flex-item">
+                        <i><img src="img/svg/sticker5.svg" alt="стикер"></i>
+                        <h3>КРЕАТИВ</h3>
+                        <p>Вы научитесь:</p>
+                        <ul>
+                            <li>Составлять макеты и офферы под сегменты ЦА</li>
+                            <li>Создавать продающие тексты</li>
+                            <li>Делать трендовые макеты</li>
+                            <li>Пользоваться топовыми приложениями для создания макетов</li>
+                        </ul>
+                    </div>
+                    <div class="flex-item">
+                        <i><img src="img/svg/sticker6.svg" alt="стикер"></i>
+                        <h3>ТЕХНИКА</h3>
+                        <p>Вы научитесь:</p>
+                        <ul>
+                            <li>Пользоваться бизнес менеджером и ADS</li>
+                            <li>Запускать таргетированную рекламу</li>
+                            <li>Искать рабочие связки</li>
+                            <li>Настраивать пиксель</li>
+                            <li>Оптимизировать рекламную кампанию</li>
+                            <li>Получать ОГНЕННЫЕ результаты</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="inner-flex-box">
+                    <div class="inner-flex-box-wrap">
+                        <div class="inner-flex-item">
+                            <ul>
+                                <li>Введение: Знакомство со спикерами мотивация, проработка страхов</li>
+                                <li>Поиск первого бесплатного клиента</li>
+                                <li>Терминология, основы таргета</li>
+                                <li>Анализ ЦА</li>
+                                <li>Портрет клиента</li>
+                                <li>Боли клиента</li>
+                                <li>Анализ посадочной страницы</li>
+                            </ul>
+                        </div>
+
+                        <div class="inner-flex-item">
+                            <ul>
+                                <li>Анализ конкурентов</li>
+                                <li>Подготовка профиля к таргету</li>
+                                <li>Воронка продаж</li>
+                                <li>Составление офферов + фишки</li>
+                                <li>Создание продающих текстов</li>
+                                <li>Как сделать трендовые креативы</li>
+                                <li>Индивидуализация макетов</li>
+                                <li>Приложения для создания макетов</li>
+                            </ul>
+                        </div>
+
+                        <div class="inner-flex-item">
+                            <ul>
+                                <li>Составление рекламной стратегии</li>
+                                <li>Основы Facebook</li>
+                                <li>Как избежать блокировок</li>
+                                <li>Процесс запуска таргетированной рекламы</li>
+                                <li>Пиксель</li>
+                                <li>Оптимизация рекламной кампании</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <span>+ бонусные уроки для тарифа “Я ХОЧУ”</span>
+                </div>
+            </div>
+        </section>
+        <section class="tarif full_screen" id="tarif">
+            <div class="tarif-wrap">
+                <h2>ТАРИФЫ</h2>
+                <div class="flex-box">
+                    <div class="flex-item">
+                        <i>
+                            <h2>1</h2>
+                        </i>
+                        <h3>Я САМ</h3>
+                        <ul>
+                            <li class="active">доступ ко всем урокам курса</li>
+                            <li>доступ к чату с участниками</li>
+                            <li>1 мастер-майнд </li>
+                            <li>помощь в ведении первого клиента</li>
+                            <li>доступ к сессии вопрос-ответ</li>
+                            <li>доступ к розыгрышу менторства от топовых специалистов</li>
+                            <li>доступ к розыгрышу первого клиента</li>
+                            <li>сертификат по окончанию курса</li>
+                        </ul>
+                        <div class="price_label">
+                            <span>2 390 ₽</span>
+                            <div class="inner_price_label">
+                                <span>1 190 ₽</span>
+                                <a href="#!">КУПИТЬ</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-item">
+                        <i>
+                            <h2>2</h2>
+                        </i>
+                        <h3>Я МОГУ</h3>
+                        <ul>
+                            <li>доступ ко всем урокам курса</li>
+                            <li>доступ к чату с участниками</li>
+                            <li>доступ к сессии вопрос-ответ</li>
+                            <li>1 мастер-майнд </li>
+                            <li>помощь в ведении первого клиента</li>
+                            <li>доступ к розыгрышу менторства от топовых специалистов</li>
+                            <li>доступ к розыгрышу первого клиента</li>
+                            <li>сертификат по окончанию курса</li>
+                        </ul>
+                        <div class="price_label">
+                            <span>3 990 ₽</span>
+                            <div class="inner_price_label">
+                                <span>1 990 ₽</span>
+                                <a href="#!">КУПИТЬ</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-item">
+                        <i>
+                            <h2>3</h2>
+                        </i>
+                        <h3>Я ХОЧУ</h3>
+                        <ul>
+                            <li>доступ ко всем урокам курса</li>
+                            <li>доступ к чату с участниками</li>
+                            <li>доступ к сессии вопрос-ответ</li>
+                            <li>1 мастер-майнд </li>
+                            <li>помощь в ведении первого клиента</li>
+                            <li>доступ к розыгрышу менторства от топовых специалистов</li>
+                            <li>доступ к розыгрышу первого клиента</li>
+                            <li>сертификат по окончанию курса</li>
+                        </ul>
+                        <div class="price_label">
+                            <span>5 790 ₽</span>
+                            <div class="inner_price_label">
+                                <span>3 990 ₽</span>
+                                <a href="#!">КУПИТЬ</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
     </div>
-    <!--bottom js-->
-    <script src="./js/main.js"></script>
+
+    <script>
+        var mySlider = slider('.slides');
+    </script>
 </body></html>
